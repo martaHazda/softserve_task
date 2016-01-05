@@ -35,7 +35,7 @@ ul li a {
 	margin: 0 auto;
 }
 
-/*-------------HEADER------------*/
+/*---------------HEADER---------------*/
 
 .logo {
 	margin-right: 8px;
@@ -87,15 +87,15 @@ ul li a {
 }
 .right-nav ul li {
 	display: inline;
+	border-right: 1px solid #fff;
 }
 .right-nav ul li a {
 	color: #fff;
 	display: inline-block;
 	padding: 0 8px 0 10px;
+	font-size: 11px;
 }
-.right-nav ul li{
-	border-right: 1px solid #fff;
-}
+
 .right-nav ul li:last-child{
 	border: none;
 }
@@ -105,10 +105,16 @@ ul li a {
 }
 .search-box label {
 	color: #fff;
+	font-size: 11px;
 }
-.search-box input {
+.search-box input#search-site {
 	border: 1px solid #819ebc;
 	margin: 2px 0 1px 0;
+	width: 124px;
+}
+
+.search-box input[type="image"] {
+	vertical-align: middle;
 }
 
 .cart-box {
@@ -233,11 +239,13 @@ footer {
 
 footer form label {
 	color: #fff;
+	font-size: 11px;
 }
 
 .footer-form #email {
 	margin-left: 11px;
 	margin-right: 25px;
+	width: 152px;
 }
 
 .footer-form {
@@ -246,8 +254,14 @@ footer form label {
 }
 
 .footer-form select {
-	margin-left: 11px;
-	margin-right: 8px;
+	margin: 1px 8px 4px 11px;
+	font-size: 11px;
+}
+
+.footer-form input {
+	border: 1px solid #819ebc;
+	margin: 2px 0 2px 0;
+	vertical-align: middle;
 }
 
 .footer-nav {

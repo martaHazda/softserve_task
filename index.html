@@ -30,9 +30,11 @@
 				</div>
 				<div class="blue-box clearfix">
 					<div class="search-box">
-						<label for="search-site">Search site</label>
-						<input id="search-site" type="text">
-						<a href="google.com"><img src="img/right_arrow.png" alt="Button"></a>
+						<form action="">
+							<label for="search-site">Search site</label>
+							<input id="search-site" type="text">
+							<input type="image" src="img/right_arrow.png" alt="Search">
+						</form>
 					</div>
 					<div class="right-nav">
 						<ul>
@@ -46,7 +48,7 @@
 			<aside class="clear">
 				<nav>
 					<ul>
-						<li>bye</li>
+						<li>buy</li>
 						<li><a href="google.com">Sleep number beds</a>
 							<ul class="inner-nav">
 								<li><a href="google.com">Classic series</a></li>
@@ -86,6 +88,8 @@
 					</ul>
 				</div>
 			</aside>
+
+
 			<div class="content">
 				<div class="item-desc">
 					<div class="item-photos"></div>
@@ -94,23 +98,23 @@
 						<span>4.7 out of 5</span>
 						<a href="google.com">Read all 32 rewiews</a>
 						<a href="google.com">Write a rewiew</a>
-						<span>SIZE</span>
-						<a href="google.com">View size chart</a>
-						<select name="size" id="size">
-							<option value="Queen">Queen</option>
-						</select>
-
-						<span>Base</span>
-						<a href="google.com">(Recomended)</a>
-						<select name="base" id="base">
-							<option value="">Select a base</option>
-						</select>
-						<a href="google.com">Mattress protection</a>
-						<select name="mat-protection" id="mat-protection">
-							<option value="">Select a protection</option>
-						</select>
-						<input type="button" value="ADD BED TO CART">
-
+						<form id="purchase-form" action="">
+							<span>SIZE</span>
+							<a href="google.com">View size chart</a>
+							<select name="size" id="size">
+								<option value="Queen">Queen</option>
+							</select>
+							<span>Base</span>
+							<a href="google.com">(Recomended)</a>
+							<select name="base" id="base">
+								<option value="">Select a base</option>
+							</select>
+							<a href="google.com">Mattress protection</a>
+							<select name="mat-protection" id="mat-protection">
+								<option value="">Select a protection</option>
+							</select>
+							<input type="button" value="ADD BED TO CART">
+						</form>
 					</div>
 					<div class="share">
 
